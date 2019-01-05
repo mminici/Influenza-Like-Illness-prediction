@@ -4,12 +4,12 @@ This project aims to implement a prediction model for Influenza-like illness in 
 
 ## Brief history in the literature
 
-Detecting epidemics using digital data is an hot topic in modern literature. For what regards influenza epidemics, the research paper "Detecting influenza epidemics using search engine query data" by Ginsberg, Mohebbi, Patel, Brammer, Smolinski & Brilliant published by Nature(2009) has been a milestone which brought the CDC to use Google FluTrend as gold standard for Influenza-Like Illness. All went good untile "GFT overestimated the prevalence of flu in the 2012–2013 season and overshot the actual level in 2011–2012 by more than 50%" as Lazer, Kennedy, King, Vespignani reported in the article "The Parable of Google Flu: Traps in Big Data Analysis" on Science(2014). This thing pushed the research community to go further in the prediction analysis of Influenza-Like-Illness from digital data
+Detecting epidemics using digital data is an hot topic in modern literature. For what regards influenza epidemics, the research paper ```Detecting influenza epidemics using search engine query data" by Ginsberg, Mohebbi, Patel, Brammer, Smolinski & Brilliant``` published by Nature(2009) has been a milestone which brought the CDC to use Google FluTrend as gold standard for Influenza-Like Illness. All went good until ```"GFT overestimated the prevalence of flu in the 2012–2013 season and overshot the actual level in 2011–2012 by more than 50%"``` as Lazer, Kennedy, King, Vespignani reported in the article "The Parable of Google Flu: Traps in Big Data Analysis" on Science(2014). This thing pushed the research community to go further in the prediction analysis of Influenza-Like-Illness from digital data.
 
 
 ### Why influenza is important to estimate?
 
-It could seem that in developed countries the influenza epidemics is well controlled but if we see the real data "Seasonal influenza epidemics result in an estimated 3 to 5 million cases of severe illness and 250,000 to 500,000 deaths worldwide each year" from https://www.who.int/en/news-room/fact-sheets/detail/influenza-(seasonal).
+It could seem that in developed countries the influenza epidemics is well controlled but if we see the real data ```"Seasonal influenza epidemics result in an estimated 3 to 5 million cases of severe illness and 250,000 to 500,000 deaths worldwide each year"``` from https://www.who.int/en/news-room/fact-sheets/detail/influenza-(seasonal).
 
 
 ### General pattern for digital disease detection
@@ -26,7 +26,7 @@ It could seem that in developed countries the influenza epidemics is well contro
 1. Ground truth: The data comes from the epidemiologic surveillance by the ISS(**I**stituto **S**uperiore di **S**anità) on influenza. The data are available [here](https://old.iss.it/site/RMI/influnet/pagine/stagioni.aspx).
 2. Proxy data: The digital data comes from the Wikipedia page view rate on pages related to Influenza. The data were scraped from the [PageView service](https://tools.wmflabs.org/pageviews/?project=it.wikipedia.org&platform=all-access&agent=user&range=all-time&pages=Influenza|Febbre) from the Wikimedia Toolforge.
 
-The adopted methodology is inspired by the work > D.J. McIver & J. S. Brownstein (2014), "Wikipedia Usage Estimates Prevalence of Influenza-Like Illness in the United States in Near Real-Time", PLoS Comput Biol 10(4): e1003581 http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003581
+The adopted methodology is inspired by the work ```D.J. McIver & J. S. Brownstein (2014), "Wikipedia Usage Estimates Prevalence of Influenza-Like Illness in the United States in Near Real-Time", PLoS Comput Biol 10(4): e1003581 http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003581```
 
 
 Further discussion can be found into the Jupyter Notebook inside the repository.
@@ -57,4 +57,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* All the work is inspired by the course lectures held by Professor Ciro Cattuto in "Digital Epidemiology"
+* All the work is inspired by the course lectures in "Digital Epidemiology" held by Professor Ciro Cattuto.
