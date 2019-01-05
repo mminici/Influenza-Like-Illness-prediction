@@ -1,1 +1,1 @@
-# Influenza-Like-Illness-prediction
+# Influenza-Like-Illness prediction
