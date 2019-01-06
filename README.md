@@ -37,7 +37,7 @@ Further discussion can be found into the Jupyter Notebook inside the repository.
 
 * [Selenium](https://www.seleniumhq.org/) - Used to scrape dynamic web data
 * [Scikit-learn](https://scikit-learn.org/) - For the setup of most of the machine learning models
-* [H2O](https://github.com/h2oai) - For create the GLM used in the McIver & Brownstein paper.
+* [H2O](https://github.com/h2oai) - For creating the GLM used in the McIver & Brownstein paper.
 
 ## Final Results
 
