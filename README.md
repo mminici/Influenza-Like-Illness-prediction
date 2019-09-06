@@ -2,7 +2,7 @@
 
 This project aims to implement a prediction model for Influenza-like illness in Italy.
 
-## Brief history in the literature
+## Brief history of the literature
 
 Detecting epidemics using digital data is an hot topic in modern literature. For what regards influenza epidemics, the research paper ```"Detecting influenza epidemics using search engine query data" by Ginsberg, Mohebbi, Patel, Brammer, Smolinski & Brilliant``` published by Nature(2009) has been a milestone which brought the CDC to use Google FluTrend as gold standard for Influenza-Like Illness. All went good until ```"GFT overestimated the prevalence of flu in the 2012–2013 season and overshot the actual level in 2011–2012 by more than 50%"``` as Lazer, Kennedy, King, Vespignani reported in the article "The Parable of Google Flu: Traps in Big Data Analysis" on Science(2014). This thing pushed the research community to go further in the prediction analysis of Influenza-Like-Illness from digital data.
 
